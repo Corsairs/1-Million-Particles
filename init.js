@@ -10,7 +10,7 @@ var gl = c.getContext('experimental-webgl')
 
 	//console.log(ext)
 
-var particleCount = Math.pow(512,2)//65536
+var particleCount = Math.pow(1024,2)//65536
 var WIDTH = Math.sqrt(particleCount)
 var HEIGHT = Math.sqrt(particleCount) //8x8 Grid then 
 var array 
